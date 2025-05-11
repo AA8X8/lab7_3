@@ -18,7 +18,7 @@ class CalculatorTest {
 
     @Test
     void div() {
-        assertEquals(22, calc.div(22, 0));
+        assertEquals(22, calc.div(22, 1));
     }
 
     @Test
